@@ -1,0 +1,43 @@
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.filtros .filtro-marca,
+.filtros .filtro-fecha,
+.filtros .filtro-precio {
+  margin-bottom: 20px;
+}
+
+.filtros h2,
+.filtros h3 {
+  margin: 0;
+  font-weight: normal;
+}
+
+.filtros select,
+.filtros input[type="number"] {
+  padding: 5px;
+  font-size: 16px;
+  margin: 5px;
+  margin-right: 12px;
+}
+
+.filtros select {
+  margin-left: 10px;
+}
+
+.filtros button {
+  padding: 5px 10px;
+  font-size: 16px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.filtros button:hover {
+  background-color: #0062cc;
+}

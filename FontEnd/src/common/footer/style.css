@@ -1,0 +1,15 @@
+
+/* Footer PART HERE  */
+
+footer{
+  background-color: var(--color-232f3e);
+}
+footer:nth-child(3){
+  border-top: 1px solid 1px solid rgba (255, 255, 255, 0.1 ) ;
+}
+
+footer:not(:first-child){
+  border-top: 1px solid;
+}
+
+/* Footer PArt End */
